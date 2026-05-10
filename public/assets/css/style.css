@@ -259,3 +259,54 @@ h3 { font-size: 22px; }
     .resource-logo { width: 180px; height: 180px; }
     .resource-logo-inner { width: 108px; height: 108px; font-size: 34px; }
 }
+
+.team-table-wrapper {
+    padding: 0; 
+    overflow: hidden;
+    overflow-x: auto; 
+}
+
+.team-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 15px;
+}
+
+.team-table th {
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--accent-blue);
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    padding: 18px 24px;
+    border-bottom: 1px solid var(--border);
+}
+
+.team-table td {
+    padding: 16px 24px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+    color: var(--text-main);
+}
+
+.team-table tr:last-child td {
+    border-bottom: none;
+}
+
+.team-table td:last-child {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.team-table tr:hover td {
+    background: rgba(209, 63, 63, 0.04);
+    color: #fff;
+    transition: 0.2s;
+}
+
+@media (max-width: 600px) {
+    .team-table th, .team-table td {
+        padding: 12px 16px;
+        font-size: 13px;
+    }
+}
