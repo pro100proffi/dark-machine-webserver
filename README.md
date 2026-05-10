@@ -19,24 +19,13 @@ Python 3.13.0
 ### 1. Склонировать репозиторий
 
 ```bash
-git clone https://github.com/ТВОЙ_ЛОГИН/НАЗВАНИЕ_РЕПОЗИТОРИЯ.git
+git clone https://github.com/pro100proffi/dark-machine-webserver.git
 ```
 
-Пример:
-
-```bash
-git clone https://github.com/artemgavrilov/dark-machine-webserver.git
-```
 
 ---
 
 ### 2. Перейти в папку проекта
-
-```bash
-cd НАЗВАНИЕ_РЕПОЗИТОРИЯ
-```
-
-Пример:
 
 ```bash
 cd dark-machine-webserver
@@ -47,7 +36,7 @@ cd dark-machine-webserver
 ### 3. Запустить сервер
 
 ```bash
-python server.py
+python main.py
 ```
 
 После запуска в терминале должно появиться сообщение:
@@ -120,7 +109,7 @@ http://localhost:8080/cgi-bin/countdown_info.py
 
 Проект запускается локально и по умолчанию работает на порту `8080`.
 
-Если порт `8080` уже занят другой программой, можно изменить порт в файле `server.py`.
+Если порт `8080` уже занят другой программой, можно изменить порт в файле `main.py`.
 
 Нужно найти строку:
 
