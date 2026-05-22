@@ -1,9 +1,4 @@
 
----
-
-# `docs/resources.md`
-
-```md
 # Полезные ресурсы
 
 ## HTML и CSS
