@@ -1,9 +1,3 @@
-
----
-
-# `docs/about.md`
-
-```md
 # О проекте
 
 ## Dark Machine
